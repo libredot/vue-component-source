@@ -1,0 +1,40 @@
+{
+  "name": "vcs",
+  "version": "0.0.1",
+  "description": "a vue component generator",
+  "main": "lib/vcs.js",
+  "bin": {
+    "vcs": "lib/vcs.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "colorful": "^2.1.0",
+    "commander": "^2.11.0",
+    "inflection": "^1.12.0",
+    "keypress": "^0.2.1",
+    "multiple": "^0.2.1",
+    "path": "^0.12.7",
+    "rd": "^1.1.2",
+    "stringbitlength": "^1.0.1",
+    "swig": "^1.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinycold/Vue-Component-Source.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vue-Component",
+    "Vcs"
+  ],
+  "author": "Doublege",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinycold/Vue-Component-Source/issues"
+  },
+  "homepage": "https://github.com/tinycold/Vue-Component-Source#readme"
+}

@@ -1,0 +1,24 @@
+module.exports = {
+    lang: 'scss',
+    componentsDir: 'src/components',
+    viewsDir: 'src/views',
+    routePath: 'src/router/index.js',
+    components: [
+        {
+            name: 'Header',
+            path: 'layouts/Header'
+        },
+        {
+            name: 'Order',
+            path: 'order/Header'
+        },
+        {
+            name: 'Body',
+            path: 'layouts/Body'
+        },
+        {
+            name: 'Body',
+            path: 'layouts/Body'
+        }
+    ]
+}
