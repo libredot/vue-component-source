@@ -15,10 +15,8 @@ export default {
 
     },
 
-    components: {
-    {% for component in components %}
-        {% if !loop.last %} {{ component.name }},
-        {% else %} {{ component.name }} {% endif %} {% endfor %}
+    components: {     {% for component in components %}
+        {% if !loop.last %}{{ component.name }},{% else %}{{ component.name }}{% endif %}{% endfor %}
     }
     {% endif %}
 }
