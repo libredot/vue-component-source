@@ -27,17 +27,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinycold/Vue-Component-Source.git"
+    "url": "git+https://github.com/tinycold/vue-vomponent-source.git"
   },
   "keywords": [
     "Vue",
-    "Vue-Component",
-    "Vcs"
+    "Vue Component",
+    "Vue tool"
   ],
   "author": "Doublege",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tinycold/Vue-Component-Source/issues"
+    "url": "https://github.com/tinycold/vue-vomponent-source/issues"
   },
-  "homepage": "https://github.com/tinycold/Vue-Component-Source#readme"
+  "homepage": "https://github.com/tinycold/vue-vomponent-source#readme"
 }
