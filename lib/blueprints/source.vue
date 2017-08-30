@@ -8,17 +8,20 @@
 {% for component in components %}import {{ component.name }} from "{{ component.path }}"
 {% endfor %}
 export default {
-    {% if (components.length === 0) %}data () {
+    name: '{{name}}',
+    data () {
+        return {
 
-    }
-    {% else %}data () {
+        }
+    },
 
+    methods: {
+        // TODO
     },
 
     components: {     {% for component in components %}
         {% if !loop.last %}{{ component.name }},{% else %}{{ component.name }}{% endif %}{% endfor %}
     }
-    {% endif %}
 }
 </script>
 
